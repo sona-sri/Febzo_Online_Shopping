@@ -1,0 +1,697 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Shopping Website</title>
+
+    <!--link to CSS file-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ </head>
+
+ <body>
+    <header>
+        <a href="#" class="logo"><i class='fas fa-shopping-cart'></i>febzo</a>
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Accessories</a>
+            <a href="#about">About</a>
+            <a href="#menu">Clothes</a>
+            <a href="#deal">Deal</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <!---search section-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name=" " id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>50% Offer!</span>
+                        <h3>Hooded Sweatshirt</h3>
+                        <p>Being wanted men's cotton fleece blend navy hoded sweatshirt will be a perfect outfit for winter days. These fullsleeve navy hoodie helps you to keep yourself warm and comfortable all the day. It can be teamed with cuffed chinos and a pair of casual shoes.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/pic1.webp" alt="hoodie">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Buy 2 - Get 1 for free</span>
+                        <h3>Silk Blend Saree</h3>
+                        <p>Blended silk sarees are very similar in appearance, texture, and strength as compared to pure silk sarees. Blended silk sarees offer the same feel and comfort as pure silk handloom sarees. Blended silk sarees are a cheaper alternative to pure silk sarees and are also more durable because of their mixed fabric material.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/pic2.webp" alt="saree">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>20-25 % Offer</span>
+                        <h3>Woodland Outdoors</h3>
+                        <p>Woodland shoes are known for their durability and its innovative technology of being waterproof.Their formal shoes are made of genuine leather and are therefore highly durable. Sandals and floaters from Woodland are also made of leather and are smartly designed.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/pic3.jpg" alt="shoes">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--Accessories section-->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Accessories</h3>
+        <h1 class="heading">Best Sellers!</h1>
+        <div class="box-container">
+            <div class="box">
+                <img class="pic4" src="images/pic4.jpg" alt="tennis shoes">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <h3>Adidas Tennis Shoes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹1,169</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img class="pic5" src="images/pic5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <h3>Titan Analog Watch</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹5,760</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img class="pic6" src="images/pic6.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <h3>Minimalist Sunscreen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹599</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img class="pic7" src="images/pic7.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <h3>Yardley London</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹649</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img class="pic8" src="images/pic8.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <h3>Boat Airdopes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹4,490</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img class="pic9" src="images/pic9.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <h3>Silver Couple Ring</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹1,799</span>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about">
+        <h3 class="sub-heading"> About us</h3>
+        <h1 class="heading"> Why choose us?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/pic10.jpg" alt="logo">
+            </div>
+            <div class="content">
+                <h3>Best shopping website in the country!</h3>
+                <p>We value the uniqueness in everyone, respect differences, and foster a sense of belonging. A one-stop fashion destination for anything and everything you need to look good. From a category leader to a wishmaster, we are all bound together and guided by our values of audacity, bias for action, customer-first, integrity and inclusion.The company has also been successful in its efforts to expand beyond its core retail business into other areas, such as cloud computing and streaming media.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Easy payment</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--clothes section-->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Clothes</h3>
+        <h1 class="heading">Featured Products!</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="images/pic11.webp" class="small-image-1" alt="">
+                        <img src="images/pic12.webp" class="small-image-1" alt="">
+                        <img src="images/pic13.webp" class="small-image-1" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="images/pic14.webp" class="big-image-1" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Formal Shirt</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(604 reviews)</span>
+                    </div>
+                    <p>Men Regular, Solid, Spread Collar, Formal Shirt</p>
+                    <div class="price">₹799 <span>₹1,600</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="images/pic15.jpg" class="small-image-2" alt="">
+                        <img src="images/pic16.jpg" class="small-image-2" alt="">
+                        <img src="images/pic17.jpg" class="small-image-2" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="images/pic18.jpg" class="big-image-2" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Slim Fit</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(257 reviews)</span>
+                    </div>
+                    <p>Men Slim Fit, Striped, Classy, Casual Shirt</p>
+                    <div class="price">₹629 <span>₹1,299</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="images/pic19.webp" class="small-image-3" alt="">
+                        <img src="images/pic20.webp" class="small-image-3" alt="">
+                        <img src="images/pic21.webp" class="small-image-3" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="images/pic22.webp" class="big-image-3" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>mannn3</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(1,250 reviews)</span>
+                    </div>
+                    <p>Men Washed Denim Jacket, Fashionable, Bossy Fit</p>
+                    <div class="price">₹1,579 <span>₹2,899</span></div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image-container">
+                        <div class="small-image">
+                            <img src="images/pic23.webp" class="small-image-1" alt="">
+                            <img src="images/pic24.webp" class="small-image-1" alt="">
+                            <img src="images/pic25.webp" class="small-image-1" alt="">
+                        </div>
+                        <div class="big-image">
+                            <img src="images/pic26.webp" class="big-image-1" alt="">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Puff Sleeves</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(598 reviews)</span>
+                        </div>
+                        <p>Women Casual, Puff Sleeves, Solid Women Top</p>
+                        <div class="price">₹699 <span>₹1,299</span></div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <div class="small-image">
+                            <img src="images/pic27.webp" class="small-image-2"  alt="">
+                            <img src="images/pic28.webp" class="small-image-2"  alt="">
+                            <img src="images/pic29.webp" class="small-image-2"  alt="">
+                        </div>
+                        <div class="big-image">
+                            <img src="images/pic30.webp" class="big-image-2" alt="">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Balloon Sleeves</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(1,896 reviews)</span>
+                        </div>
+                        <p>Women Trendy, Balloon Sleeve, Bossy Women Top</p>
+                        <div class="price">₹899 <span>₹1,799</span></div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image-container">
+                        <div class="small-image">
+                            <img src="images/pic39.webp" class="small-image-3" alt="">
+                            <img src="images/pic40.webp" class="small-image-3" alt="">
+                            <img src="images/pic41.webp" class="small-image-3" alt="">
+                        </div>
+                        <div class="big-image">
+                            <img src="images/pic42.webp" class="big-image-3" alt="">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Sleeveless</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(2,050 reviews)</span>
+                        </div>
+                        <p>Women Slim Fit, Sleeveless Self Design Top</p>
+                        <div class="price">₹349 <span>₹999</span></div>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--deal of the day-->
+    <section class="deal" id="deal">
+        <h3 class="sub-heading">Deal of the day</h3>
+        <h1 class="heading">Grab all your favourites!</h1>
+        <div class="row">
+            <div class="content">
+                <span class="discount">Upto 50% off</span>
+                <h3 class="text">Deal of the day</h3>
+                <div class="count-down">
+                    <div class="box">
+                        <h3 id="Days">00:</h3>
+                        <span>Days</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="Hours">00:</h3>
+                        <span>Hours</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="Minutes">00:</h3>
+                        <span>Minutes</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="Seconds">00</h3>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Shop now!</a>
+            </div>
+            <div class="image">
+                <img src="images/pic31.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <!--Review section-->
+    <section class="review" id="review">
+        <h3 class="sub-heading">Customer's Review</h3>
+        <h1 class="heading">What they say?</h1>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic32.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Stephen Joe</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I was very excited to use the Boat Airdopes 201 when they came out and from the first day of using them, they feel comfortable and the sound was great. The buttons are very user-friendly. They are a lighter pair of True wireless earbuds. The buttons were sensitive to use.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic33.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Paul Resnick</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p> The theme of your website is looking to pretty and it's very good to browse on your online shopping website. There are many popular online shopping apps in the google playstore. Although I like your shopping website more comparing to others.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic34.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Reta Collean</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The quality of the silver ring is really awesome! I gifted a couple ring to my parents on thier aniversary, it looked pretty good on thier fingers. They both loved the ring. I promise you that I will recommend your shopping website to my friends and family.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic35.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Van Hussain</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>My favourite brand is titan. It has good name for long year. Recently I purchased titan raga model. It give rich look to us. .Its a branded company in market for a long time. Good quality watches and works for long time.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic36.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Albert Josh</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I have purchased the shoes of Adidas for Rs. 7500, the shoes are very comfortable and very light and flexible sole, I go to gym by wearing my shoes and do rough use. I also wash my shoes with warm water when they look dirty and after washing it, it looks new.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic37.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Richard Kevin</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>This website has been one of my favorites for a long time, and their products are both high-quality and long-lasting. They’re trendy, comfortable, and affordable. It’s impossible to go wrong with this website! The brand is excellent for working out and going out of style</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic38.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Cristie Rai</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I have recently bought Yardley Perfume.It's a kind of pinky-white floral with a little bit of powdery citrus. Reminds me of some polite quiet lady that works in your office and makes sure to say bless you every time you sneeze.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Order section-->
+    <section class="order" id="order">
+        <h3 class="sub-heading">Order Now</h3>
+        <h1 class="heading">Free and Fast!</h1>
+        <form action="">
+            <div class="inputbox">
+                <div class="input">
+                    <span>Your name</span>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input">
+                    <span>Your number</span>
+                    <input type="number" placeholder="Enter your number">
+                </div>
+                <div class="input">
+                    <span>Your order</span>
+                    <input type="text" placeholder="Enter product name">
+                </div>
+                <div class="input">
+                    <span>Additional order</span>
+                    <input type="test" placeholder="Additional product name">
+                </div>
+                <div class="input">
+                    <span>Number of orders</span>
+                    <input type="number" placeholder="How many orders?">
+                </div>
+                <div class="input">
+                    <span>Date and Time</span>
+                    <input type="datetime-local">
+                </div>
+                <div class="input">
+                    <span>Your address</span>
+                    <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>Your feedback</span>
+                    <textarea name="" placeholder="Enter your feedback" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
+        </form>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">India</a>
+                <a href="#">Japan</a>
+                <a href="#">Russia</a>
+                <a href="#">USA</a>
+                <a href="#">France</a>
+                <a href="#">China</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Accessories</a>
+                <a href="#">About</a>
+                <a href="#">Clothes</a>
+                <a href="#">Deal</a>
+                <a href="#">Review</a>
+                <a href="#">Order</a>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">+91-9876543210</a>
+                <a href="#">febzoshopping@gmail.com</a>
+                <a href="#">as@gmail.com</a> 
+                <a href="#">Tamilnadu, India-400380</a>
+            </div>
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+        <div class="credit"> Copyright @ 2023 by <span>Sonasri.Mu</span></div>
+    </section>
+
+    
+   
+    
+
+
+
+     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Link to Swipper JS file-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--link to JS file-->
+    <script src="script.js"></script>
+ </body>
+ </html>
